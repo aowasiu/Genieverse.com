@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS hack for short-page view */
+
+#container{
+/*	height: 100vh;	*/
+}
+
+#container #wrapper #centered_content{
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+/*
+#container #tiny_wrapper {
+	padding-bottom: 30%;
+}*/

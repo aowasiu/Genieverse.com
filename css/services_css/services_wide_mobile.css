@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container #wrapper {
+	display: table;
+}
+
+#container #wrapper #banner_column {
+	display: table-header-group;
+}
+
+#container #wrapper #main_content {
+	display: table-footer-group;
+}
+
+#main_content table tr td a img {
+	width: 100%;
+	height: 25%;
+}
+
+#banner_column table tr td img {
+	width: 100%;
+	height: 20%;
+}

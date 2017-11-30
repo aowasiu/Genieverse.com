@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin-top: -1%;
+}
+
+#container header div #mall_logo {
+	margin-top: -10%;
+}
+
+#container header div form ul li #search_field {
+	width: 65%;
+	padding: 0.5%;
+}
+
+#container header div form #search_form {
+	margin-top: -3.5%;
+}
+
+#container #wrapper #home_category_table {
+	width: 60%;
+}
+
+#container #wrapper #home_category_table tr  td p {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 20px;
+}

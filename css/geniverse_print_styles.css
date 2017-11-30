@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media print
+{
+	size: A4 portrait;
+	a: after{ content: "( " attr(href) " )"; }
+	
+	body, #container, header, #wrapper, footer {
+		background-color: #FFF;
+	}
+	
+	#statistics, /* #board_strip, #banner_column */ {
+		display: none;
+	}
+	
+	p {
+		font-size: 12px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	#container {
+		color: #000;
+	}
+	
+	@page {
+		margin: 2cm 2cm;
+	}
+}

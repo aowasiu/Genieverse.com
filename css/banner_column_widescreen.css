@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*
+	This is the CSS for mobile devices when the banner_column included. It(banner_column) is transferred atop main_content with this CSS
+*/
+
+
+#banner_column table tr td img {
+	width: 100%;
+	height: 20%;
+}

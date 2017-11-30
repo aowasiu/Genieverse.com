@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS for join_us.php mobile view */
+
+#container #wrapper {
+	display: block;
+}
+
+#container #wrapper #centered_content {
+	width: 96%;
+	padding: 1% 2%;
+	border: solid;
+	border-color: #EEBC1D;
+	border-radius: 3%; /* or change to 15% for a different effect*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 90%;
+}
+
+#container #wrapper section hr {
+	color: #EEBC1D;
+}
+
+#container #wrapper #centered_content form table tr, #container #wrapper #centered_content form table tr td  {
+	display: block;
+}
+
+#container #wrapper #centered_content table {
+	margin-left: auto;
+	margin-right: auto;
+}

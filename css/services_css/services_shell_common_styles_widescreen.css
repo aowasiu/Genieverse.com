@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*	This is CSS for genieverse shell widescreens */
+/*
+body {
+	background:
+		url(/genieverse.com/images/genieverse_logos/genieverse_backgroung.fw.png) top left no-repeat,
+		url(/genieverse.com/images/genieverse_logos/genieverse_backgroung.fw.png) top right no-repeat,
+		url(/genieverse.com/images/genieverse_logos/genieverse_backgroung.fw.png) bottom left no-repeat,
+		url(/genieverse.com/images/genieverse_logos/genieverse_backgroung.fw.png) bottom right no-repeat,
+	 #EEBC1D url(/genieverse.com/images/genieverse_logos/genieverse_backgroung.fw.png) center repeat;
+}
+*/
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1%;
+	margin-bottom: -1%;
+}
+
+.youtube-player{
+	
+}
+
+/*
+#container header {
+	position: fixed;
+	top: -30%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+*/
+
+#container #genieverse_logo_only {
+	margin-top: -2%;
+}
+
+#container header div img {
+	margin-bottom: -1%;
+	width: 32%;
+	height: 15%;
+	display: inline;
+	padding-right: 0.4%;
+	padding-top: 1%;
+}
+
+#container header div ul {
+	background-color: #EEBC1D;
+	padding: 1.5%;
+}
+
+#container header div ul li  {
+	display: inline;
+	padding-right: 2%;
+}
+
+#container header div ul li a:hover, #container header div ul li a:focus  {
+	padding: 2% 1%;
+	background-color: #EEE;
+}
+
+#container div h1, #container div h2 {
+	text-align: center;
+}
+
+#container #wrapper section hr {
+	color: #EEBC1D;
+}
+
+body #container #wrapper section iframe {
+	width: 640px;
+	height: 510px;
+}
+
+#container footer {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#container footer table, #container footer table tr, #container footer table tr td  {
+	display: inline;
+}
+
+#container footer #footer_links {
+	padding-right:4%;
+}
